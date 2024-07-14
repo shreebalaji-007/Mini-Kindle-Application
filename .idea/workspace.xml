@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9aeb4814-9b5f-4664-a574-b11e4ec51c5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/exception/BookAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Capstone Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatewayService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatewayService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatewayService/src/main/java/com/todotracker/apigatewayservice/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatewayService/src/main/java/com/books/apigatewayservice/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatewayService/src/main/java/com/todotracker/apigatewayservice/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatewayService/src/main/java/com/books/apigatewayservice/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatewayService/src/main/java/com/todotracker/apigatewayservice/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatewayService/src/main/java/com/books/apigatewayservice/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatewayService/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIGatewayService/src/test/java/com/todotracker/apigatewayservice/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/APIGatewayService/src/test/java/com/books/apigatewayservice/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/src/main/java/com/todotracker/eurekaserver/EurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/src/main/java/com/books/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/src/test/java/com/todotracker/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/EurekaServer/src/test/java/com/books/eurekaserver/EurekaServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EurekaServer/target/classes/com/todotracker/eurekaserver/EurekaServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/src/main/java/com/todotracker/NotificationService/Controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/books/NotificationService/Controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/src/main/java/com/todotracker/NotificationService/Domain/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/books/NotificationService/Domain/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/src/main/java/com/todotracker/NotificationService/NotificationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/books/NotificationService/NotificationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/src/main/java/com/todotracker/NotificationService/Repository/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/books/NotificationService/Repository/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/src/main/java/com/todotracker/NotificationService/Service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/books/NotificationService/Service/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/src/main/java/com/todotracker/NotificationService/Service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/books/NotificationService/Service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/src/main/java/com/todotracker/NotificationService/Service/NotificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/src/main/java/com/books/NotificationService/Service/NotificationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/src/test/java/com/todotracker/NotificationService/NotificationServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/src/test/java/com/books/NotificationService/NotificationServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NotificationService/target/classes/com/todotracker/NotificationService/Service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/target/classes/com/todotracker/NotificationService/Service/EmailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/BooksService/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BooksService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/TaskServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/BookServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/controller/TaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/domain/Notification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/domain/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/exception/TaskAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/exception/TaskNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/exception/BookNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/proxy/NotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/proxy/NotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/repository/TaskRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/service/TaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/java/com.todotracker.taskservice/service/TaskServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/BooksService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/TodoServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/controller/TodoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/domain/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/BooksService/src/main/java/com/books/bookservice/domain/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/domain/Todo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/exception/TodoAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/exception/TodoNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/filter/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/proxy/NotificationProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/repository/TodoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/service/TodoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/java/com.todotracker.todoservice/service/TodoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/test/java/com.todotracker.todoservice/TodoServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/test/java/com.todotracker.todoservice/controller/TodoControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/test/java/com.todotracker.todoservice/repository/TodoRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoService/src/test/java/com.todotracker.todoservice/service/TodoServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/UserAuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/UserAuthenticationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/exception/InvalidCredentialsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/exception/InvalidCredentialsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/exception/UserAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/security/JWTSecurityTokenGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/security/JWTSecurityTokenGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/security/SecurityTokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/security/SecurityTokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/java/com/todotracker/authentication/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/java/com/books/authentication/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/test/java/com/todotracker/authentication/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/test/java/com/books/authentication/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/test/java/com/todotracker/authentication/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/test/java/com/books/authentication/repository/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserAuthService/src/test/java/com/todotracker/authentication/service/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserAuthService/src/test/java/com/books/authentication/service/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/domain/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/domain/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/exception/UserAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/exception/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/exception/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/filter/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/filter/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/proxy/NotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/proxy/NotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/proxy/UserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/proxy/UserProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/todotracker/userservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/books/userservice/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/target/classes/com/todotracker/userservice/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/target/classes/com/todotracker/userservice/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2foihDx70pkKjBS9DNGGABB0Iql" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApiGatewayApplication.executor": "Run",
+    "Application.BookServiceApplication.executor": "Run",
+    "Application.BooksServiceApplication.executor": "Run",
+    "Application.EurekaServerApplication.executor": "Run",
+    "Application.NotificationServiceApplication.executor": "Run",
+    "Application.TaskServiceApplication.executor": "Run",
+    "Application.TodoServiceApplication.executor": "Run",
+    "Application.UserAuthenticationApplication.executor": "Run",
+    "Application.UserServiceApplication.executor": "Run",
+    "Application.com.books.apigatewayservice.ApiGatewayApplication.executor": "Run",
+    "Application.com.books.eurekaserver.EurekaServerApplication.executor": "Run",
+    "Maven.UserService [install].executor": "Run",
+    "Maven.capstone-project [clean].executor": "Run",
+    "Maven.capstone-project [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/shree/Downloads/capstoneproject-be-main/capstoneproject-be-main",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CapstoneProject-BE\APIGatewayService\src\main\resources" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aeb4814-9b5f-4664-a574-b11e4ec51c5e" name="Changes" comment="" />
+      <created>1714473948780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714473948780</updated>
+    </task>
+    <servers />
+  </component>
+</project>
