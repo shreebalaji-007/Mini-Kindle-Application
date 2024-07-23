@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public abstract class BookServiceImpl extends BookService {
+public abstract class BookServiceImpl implements BookService {
 
     private final BookRepository bookRepository;
     private final NotificationProxy notificationProxy;
@@ -43,8 +43,8 @@ public abstract class BookServiceImpl extends BookService {
 
     @Override
     public Book createBook(Book book, String userIdEmail) {
-        if (bookRepository.existsById(book.getId())) {
-            throw new BookAlreadyExistsException("Book already exists with id: " + book.getId());
+        if (bookRepository.existsById(book.getId(book.getName()))) {
+            throw new BookAlreadyExistsException("Book already exists with id: " + book.getId(book.getName()));
         }
         Book createdBook = bookRepository.save(book);
         Notification newNotify = new Notification(userIdEmail, "Book Created", "Your Book ("+ book.getName() +") created successfully.");
@@ -54,12 +54,12 @@ public abstract class BookServiceImpl extends BookService {
 
     @Override
     public Book updateBook(String id, Book book) {
-        Optional<Book> optionalBook = bookRepository.findById(id);
+        Optional<Book> optionalBook = bookRepository.findById(Long.valueOf(id));
         if (optionalBook.isEmpty()) {
             throw new BookNotFoundException("Book not found with id: " + id);
         }
         Book existingBook = optionalBook.get();
-        existingBook.setId(book.getName());
+        existingBook.getId(book.getName());
         existingBook.setDescription(book.getDescription());
 
         return bookRepository.save(existingBook);

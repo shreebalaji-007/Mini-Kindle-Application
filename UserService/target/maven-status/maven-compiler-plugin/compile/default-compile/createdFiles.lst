@@ -1,0 +1,12 @@
+com\books\userservice\exception\UserNotFoundException.class
+com\books\userservice\filter\JwtFilter.class
+com\books\userservice\service\UserService.class
+com\books\userservice\controller\UserController.class
+com\books\userservice\proxy\NotificationProxy.class
+com\books\userservice\proxy\UserProxy.class
+com\books\userservice\exception\UserAlreadyExistsException.class
+com\books\userservice\domain\User.class
+com\books\userservice\repository\UserRepository.class
+com\books\userservice\domain\Notification.class
+com\books\userservice\service\UserServiceImpl.class
+com\books\userservice\UserServiceApplication.class

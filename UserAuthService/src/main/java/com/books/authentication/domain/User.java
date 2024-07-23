@@ -23,6 +23,9 @@ public class User {
         this.email = email;
     }
 
+    public User(String s, String u1234, String john123) {
+    }
+
     public int getUserId() {
         return userId;
     }

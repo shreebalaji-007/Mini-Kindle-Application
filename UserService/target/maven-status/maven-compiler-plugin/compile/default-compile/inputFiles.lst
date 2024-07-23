@@ -1,0 +1,12 @@
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\service\UserService.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\filter\JwtFilter.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\proxy\UserProxy.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\controller\UserController.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\domain\Notification.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\domain\User.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\exception\UserAlreadyExistsException.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\repository\UserRepository.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\service\UserServiceImpl.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\exception\UserNotFoundException.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\UserServiceApplication.java
+C:\Users\shree\Downloads\Mini-Kindle-Application\UserService\src\main\java\com\books\userservice\proxy\NotificationProxy.java

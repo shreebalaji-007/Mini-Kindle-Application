@@ -51,4 +51,18 @@ public class Book {
     }
 
 
+    public Long getId(Object name) {
+        return 0L;
+    }
+
+    public Object getName() {
+        return null;
+    }
+
+    public Object getDescription() {
+        return null;
+    }
+
+    public void setDescription(Object description) {
+    }
 }

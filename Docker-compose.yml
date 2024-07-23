@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  eureka-server:
+    image: openjdk:17-jdk-alpine
+    container_name: eureka-server
+    working_dir: /app
+    volumes:
+      - ./target/EurekaServer-0.0.1-SNAPSHOT.jar:/app/app.jar
+    ports:
+      - "8761:8761"
+    entrypoint: ["java", "-jar", "app.jar"]
+
+  api-gateway:
+    image: openjdk:17-jdk-alpine
+    container_name: api-gateway
+    working_dir: /app
+    volumes:
+      - ./target/ApiGatewayApplication.jar:/app/app.jar
+    ports:
+      - "9000:9000"
+    entrypoint: ["java", "-jar", "app.jar"]
+
+  books-service:
+    image: openjdk:17-jdk-alpine
+    container_name: books-service
+    working_dir: /app
+    volumes:
+      - ./target/BooksService-0.0.1.jar:/app/app.jar
+    ports:
+      - "8092:8092"
+    entrypoint: ["java", "-jar", "app.jar"]
+
+  notification-service:
+    image: openjdk:17-jdk-alpine
+    container_name: notification-service
+    working_dir: /app
+    volumes:
+      - ./target/NotificationService-0.0.1.jar:/app/app.jar
+    ports:
+      - "8095:8095"
+    entrypoint: ["java", "-jar", "app.jar"]
+
+  user-auth-service:
+    image: openjdk:17-jdk-alpine
+    container_name: user-auth-service
+    working_dir: /app
+    volumes:
+      - ./target/UserAuthService-0.0.1-SNAPSHOT.jar:/app/app.jar
+    ports:
+      - "8090:8090"
+    entrypoint: ["java", "-jar", "app.jar"]
+
+  user-service:
+    image: openjdk:17-jdk-alpine
+    container_name: user-service
+    working_dir: /app
+    volumes:
+      - ./target/UserService-0.0.1.jar:/app/app.jar
+    ports:
+      - "8091:8091"
+    entrypoint: ["java", "-jar", "app.jar"]
